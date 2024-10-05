@@ -1,5 +1,41 @@
-- title: Start
+- title: Home
   url: "/"
+  side: left
+
+- title: About Us
+  url: "/about/"
+  side: left
+  dropdown: 
+  - title: "Meet The Team"
+  - title: "What Make WildLife Team Different ?"
+  - title: "Terms & Conditions"
+  - title: "Birding Trip Reports & Blogs"
+
+- title: Tours
+  url: "/tours/"
+  side: left
+  dropdown: 
+  - title: "Birdwatching Tours"
+  - title: "Photography Tours"
+
+- title: Birding Checklist
+  url: "/checklist/"
+  side: left
+  dropdown: 
+  - title: "List of Birds of Vietnam"
+  - title: "Target Bird List"
+  - title: "Endemic birds and specialities"
+
+- title: Birding Hotspots
+  url: "/hotspots/"
+  side: left
+  dropdown: 
+  - title: "Northen Vietnam"
+  - title: "Central Vietnam"
+  - title: "Southern Vietnam"
+
+- title: "Contact"
+  url: "/contact/"
   side: left
 
 - title: Getting Started
@@ -66,10 +102,8 @@
   - title: "Blog Archive"
     url: "/blog/archive/"
 
-- title: "Search"
-  url: "/search/"
-  side: right
+# Disable the Search option
+# - title: "Search"
+#   url: "/search/"
+#   side: right
 
-- title: "Contact"
-  url: "/contact/"
-  side: right
